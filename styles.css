@@ -1,0 +1,268 @@
+/* Classes */
+body {
+  background-color: #fcf9ec;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  font-family: Cinzel;
+}
+
+figure {
+  padding-top: 50px;
+}
+
+audio {
+  margin-top: 10px;
+}
+
+/* IDs */
+
+#main {
+  background-color: #000;
+  font-family: 'Cinzel Decorative', cursive;
+  color: black;
+}
+
+#story {
+
+}
+
+#melodies {
+  text-align: center;
+}
+
+#list-tab {
+text-align: left;
+}
+
+#currentSong2 {
+    animation-duration: 1s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+
+
+
+
+/* Rows ********************/
+.row {
+  padding: 10px;
+}
+
+.row-text p {
+  font-size: 16px;
+  font-family: Cinzel;
+}
+
+/* Cards *******************/
+.card-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: Cinzel;
+}
+
+.card {
+  margin: auto;
+  width:70%;
+  height: 50%;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+  padding:40px;
+}
+
+
+
+/* Navbar Section */
+.topnav-centered {
+  margin: auto;
+}
+
+.navbar-brand {
+  position: absolute;
+}
+
+.nav-item {
+  padding: 10px;
+  font-family: Cinzel;
+}
+
+.carousel-control-prev {
+  padding-right: 12%;
+}
+
+.carousel-control-next {
+  padding-left: 12%;
+}
+
+.icon {
+  width: 25%;
+}
+
+.content-container {
+  background-color: #1d1919;
+  color: #fbf9fa;
+  padding: 100px;
+}
+
+.info {
+  padding: 150px 100px 350px;
+  font-family: 'Cinzel', serif;
+}
+
+.info-2 {
+  background-color: #1d1919;
+  color: #fbf9fa;
+  padding: 50px 100px 250px;
+}
+
+.square {
+    float: left;
+    width:  100%;
+    height: 85%;
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 10px;
+  }
+
+
+  .square:hover {
+    opacity:0.9;
+  }
+
+
+.carousel-item {
+  padding: auto;
+}
+
+.info-img {
+  height: 400px;
+}
+
+.chars {
+  margin: 20px;
+}
+
+
+.marB {
+  margin-bottom: 10px;
+}
+
+.opaque {
+opacity: 0.50;
+}
+
+
+.btn-lg {
+  width: 15%;
+  height: 10%;
+}
+
+
+
+.btn:hover {
+transform:scale(1.1);
+}
+
+.card-img-top {
+
+}
+
+
+.card: {
+}
+
+.img-center {
+  text-align: center;
+  margin: auto;
+}
+
+/* List Group Section */
+.list-group {
+  padding-top: 45px;
+
+}
+
+.list-group a {
+background-color: inherit;
+color:#fbf9fa;
+border-color: grey;
+}
+
+.list-group-item-action:hover {
+background-color: cyan;
+}
+
+.list-group img{
+  padding-right: 30px;
+  width: 50px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.col-4 h2 {
+padding: 10%;
+}
+
+
+
+
+
+.tab-content {
+  padding: 50px;
+  margin: auto;
+}
+
+.tab-pane {
+  text-align: center;
+}
+
+.ocarina {
+  width: 60%;
+  margin-top: 50px;
+}
+
+.tab-pane p {
+  padding-top: 20px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.tab-pane img {
+  width: 50%;
+}
